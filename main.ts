@@ -1,6 +1,9 @@
 //% color=#0fbc11 icon="\uf2db" block="L298LiteDK"
 namespace L298LiteDK {
-
+    //% block="Aktivér L298 Lite DK (slå LED-display fra)"
+    export function init(): void {
+        led.enable(false)
+    }
     /**
      * Run motor A forward with given speed (0-1023)
      */
