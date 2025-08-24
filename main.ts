@@ -137,7 +137,7 @@ namespace L298LiteDK {
     /**
      * Run both motors baglæns med speeds (0-1023)
      */
-    //% block="Begge motorer backward with speeds %speed1 and %speed2"
+    //% block="Begge motorer baglæns med speeds %speed1 and %speed2"
     //% speed1.min=0 speed1.max=1023
     //% speed2.min=0 speed2.max=1023
     export function motorsBackwardTwoSpeeds(speed1: number, speed2: number): void {
