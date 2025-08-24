@@ -1,7 +1,7 @@
 {
   "name": "L298LiteDK",
   "description": "Motor A/B (basis) til micro:bit.",
-  "version": "0.1.0",
+  "version": "0.1.02",
   "license": "MIT",
   "dependencies": {
     "core": "*",
