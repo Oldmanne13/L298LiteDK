@@ -6,7 +6,6 @@
   "dependencies": {
     "core": "*",
     "radio": "*",
-
   },
   "files": ["main.ts"],
   "supportedTargets": ["microbit"]
