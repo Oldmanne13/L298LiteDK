@@ -71,7 +71,7 @@ namespace L298LiteDK {
     /**
      * Stop both motors
      */
-    //% block="Stop begge motore"
+    //% block="Stop begge motorer"
     export function stopBothMotors(): void {
         // Stop motor A
         pins.digitalWritePin(DigitalPin.P12, 0)
@@ -88,7 +88,7 @@ namespace L298LiteDK {
     /**
      * Run both motors forward with given speeds (0-1023)
      */
-    //% block="Both motors fremad med speeds %speed1 and %speed2"
+    //% block="Begge motorer fremad med speeds %speed1 and %speed2"
     //% speed1.min=0 speed1.max=1023
     //% speed2.min=0 speed2.max=1023
     export function motorsForwardTwoSpeeds(speed1: number, speed2: number): void {
@@ -105,7 +105,7 @@ namespace L298LiteDK {
     /**
      * Run both motors forward with same speed (0-1023)
      */
-    //% block="Both motors fremad med speed %speed"
+    //% block="Begge motorer fremad med speed %speed"
     //% speed.min=0 speed.max=1023
     export function motorsForwardSameSpeed(speed: number): void {
         // Motor A forward
@@ -121,7 +121,7 @@ namespace L298LiteDK {
     /**
      * Run both motors backward with same speed (0-1023)
      */
-    //% block="Both motors baglæns med speed %speed"
+    //% block="Begge motorer baglæns med speed %speed"
     //% speed.min=0 speed.max=1023
     export function motorsBackwardSameSpeed(speed: number): void {
         // Motor A backward
@@ -137,7 +137,7 @@ namespace L298LiteDK {
     /**
      * Run both motors baglæns med speeds (0-1023)
      */
-    //% block="Both motors backward with speeds %speed1 and %speed2"
+    //% block="Begge motorer backward with speeds %speed1 and %speed2"
     //% speed1.min=0 speed1.max=1023
     //% speed2.min=0 speed2.max=1023
     export function motorsBackwardTwoSpeeds(speed1: number, speed2: number): void {
